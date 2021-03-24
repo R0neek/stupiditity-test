@@ -1,0 +1,30 @@
+a=int(input("hey you yeah you put in the number one"))
+import random
+x=0
+z=0
+if a!=1:
+  x=random.randint(1,5)
+  if x==1:
+      int(input("I said one you idiot! Now put in the number one!"))
+      z+1
+  elif x==2:
+      int(input("Are you really that dumb? its the first letter of the alphabet soup now put in one!"))
+      z+1
+  elif x==3:
+      int(input("Oh look at mister funny not putting in the number one. Shut up and follow the instructions."))
+      z+1
+  elif x==4:
+      int(input("Are you daft? like really i asked for you to put in the number one come on. Just do it now."))
+      z+1
+  elif x==5:
+      int(input("You're not even a Goofy Goober just a goober. Now press one idiot"))
+      z+1
+
+if a==1:
+    print('Hey you did it good job.')
+elif z==0:
+    print("You did it on the first try wow. BORING!")
+elif z<=1 and z>=2:
+    print("wow you gotta be pretty stupid to take that long to type the number one")
+elif z<=3:
+    print("You probaly have such low brain function that you manualy breath")
